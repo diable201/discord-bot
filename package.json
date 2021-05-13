@@ -1,0 +1,33 @@
+{
+  "name": "milo-bot",
+  "version": "1.0.0",
+  "description": "Search, read, and download nh directly from your discord channel",
+  "main": "app.js",
+  "scripts": {
+    "start": "node .",
+    "lint": "eslint --ignore-path .gitignore \"**/*.js\"",
+    "lint:fix": "npm run lint -- --fix"
+  },
+  "dependencies": {
+    "sqlite3": "^5.0.0",
+    "discord.js": "12.2.0",
+    "axios": ">=0.21.1",
+    "nana-api": "^1.1.2",
+    "discord.js-light": "3.1.1"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "author": "Rin <masami45@tuta.io>",
+  "repository": {
+    "type": "git",
+    "url": "git+"
+  },
+  "homepage": "",
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
